@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+    margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+body {
+    background-color: #f7f8fc;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #424147;
+}
+
+
+.main-login{
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    padding: 90px,0,90px,0;
+    background-color: #F7F8FC;
+}
+
+.form-login{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 35%;
+    padding: 30px;
+    margin-top: 80px;
+    border-radius: 35px;
+    background-color: #ebedf3;
+}
+.err-msg{
+    color: red;
+    font-size: 20sp;
+}
+.title-login {
+    color: #2f4499;
+    font-size: 40px;
+    margin-bottom: 40px;
+
+}
+.tag-score{
+    background-color: #ffc107;
+    width: 80px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+/* user list layout */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+  }
+  
+
+   
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+  }
+
+  table {
+    border-collapse: collapse;
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    font-size: 15px;
+  }
+  
+  th {
+    background-color: rgb(117, 201, 250);
+  }
+  
+  td {
+    background-color: rgb(205, 235, 253);
+  }
+  form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  .add_new_form{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  
+ 
+  
